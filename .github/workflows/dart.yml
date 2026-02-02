@@ -1,0 +1,36 @@
+name: Android Build APK
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          # แก้ปัญหา Error: No file matched ที่คุณเจอ
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.0'
+
+      - name: Build APK
+        run: |
+          # กระโดดเข้าไป 2 ชั้น เพื่อให้เจอไฟล์โปรเจกต์จริงๆ
+          cd surachai/surachai
+          flutter pub get
+          flutter build apk --debug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-app-apk
+          path: surachai/surachai/build/app/outputs/flutter-apk/app-debug.apk

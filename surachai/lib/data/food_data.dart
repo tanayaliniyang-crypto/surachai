@@ -1,0 +1,60 @@
+class FoodData {
+  static Map<String, Map<String, dynamic>> foods = {
+    "ขนมจีนน้ำยา": {
+      "price": 40,
+      "lat": 18.287394860356027,
+      "lng": 99.49392417989156,
+      "video": "assets/videos/cook1.mp4",
+      "ingredients": ["เส้นขนมจีน", "ปลาช่อน", "กะทิ", "น้ำพริกแกง"],
+      "steps": ["ต้มปลา", "ทำน้ำยา", "ราดเส้น"],
+    },
+    "ปลาทู": {
+      "price": 40,
+      "lat": 18.293115,
+      "lng": 99.488559,
+      "video": "assets/videos/cook2.mp4",
+      "ingredients": ["ปลาทู", "น้ำปลา"],
+      "steps": ["ทอดปลา"],
+    },
+    "ต้มยำกุ้ง": {
+      "price": 40,
+      "lat": 18.295320,
+      "lng": 99.488735,
+      "video": "assets/videos/cook3.mp4",
+      "ingredients": ["กุ้ง", "ตะไคร้"],
+      "steps": ["ต้ม", "ปรุงรส"],
+    },
+    "ไก่ทอด": {
+      "price": 40,
+      "lat": 18.287688,
+      "lng": 99.493649,
+      "video": "assets/videos/cook4.mp4",
+      "ingredients": ["ไก่", "แป้ง"],
+      "steps": ["ทอด"],
+    },
+    "ข้าวเหนียวมะม่วง": {
+      "price": 20,
+      "lat": 18.289629,
+      "lng": 99.484141,
+      "video": "assets/videos/cook5.mp4",
+      "ingredients": ["ข้าวเหนียว", "มะม่วง"],
+      "steps": ["มูนข้าว", "จัดจาน"],
+    },
+    "ช็อกโกแลตดูไบ": {
+      "price": 15,
+      "lat": 18.293115,
+      "lng": 99.488559,
+      "video": "assets/videos/cook6.mp4",
+      "ingredients": ["โกโก้", "นม"],
+      "steps": ["ผสม"],
+    },
+    "มาการอง": {
+      "price": 20,
+      "lat": 18.295320,
+      "lng": 99.488735,
+      "video": "assets/videos/cook7.mp4",
+      "ingredients": ["ไข่ขาว", "น้ำตาล"],
+      "steps": ["อบ"],
+    },
+  };
+}

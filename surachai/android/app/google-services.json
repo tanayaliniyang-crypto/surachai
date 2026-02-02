@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "463349550398",
+    "project_id": "piyawat-d038f",
+    "storage_bucket": "piyawat-d038f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463349550398:android:1db4a809ce77133743306f",
+        "android_client_info": {
+          "package_name": "com.example.new_piyawat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVoTKjoNu7VaMrdRuYttPYAlQCCrdi9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463349550398:android:f3df31e88acf98f443306f",
+        "android_client_info": {
+          "package_name": "com.example.piyawat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVoTKjoNu7VaMrdRuYttPYAlQCCrdi9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463349550398:android:52b898b0f2babedf43306f",
+        "android_client_info": {
+          "package_name": "com.piyawat.flagpic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVoTKjoNu7VaMrdRuYttPYAlQCCrdi9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
