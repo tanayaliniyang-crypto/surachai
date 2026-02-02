@@ -23,7 +23,7 @@ jobs:
           channel: 'stable'
           # ปล่อยว่างไว้ หรือระบุเป็นเวอร์ชันล่าสุด 
           # หรือลอง 3.24.0 เพื่อความชัวร์
-          flutter-version: '3.24.3'
+          flutter-version: '3.27.0'
 
       - name: Build APK
         run: |
