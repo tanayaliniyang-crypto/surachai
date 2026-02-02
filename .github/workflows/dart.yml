@@ -24,8 +24,7 @@ jobs:
 
       - name: Build APK
         run: |
-          # กระโดดเข้าไป 2 ชั้น เพื่อให้เจอไฟล์โปรเจกต์จริงๆ
-          cd surachai/surachai
+          cd surachai
           flutter pub get
           flutter build apk --debug
 
@@ -33,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: my-app-apk
-          path: surachai/surachai/build/app/outputs/flutter-apk/app-debug.apk
+          path: surachai/build/app/outputs/flutter-apk/app-debug.apk
