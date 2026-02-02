@@ -15,8 +15,8 @@ dependencies:
   firebase_core: ^4.4.0
   cloud_firestore: ^6.1.2
   url_launcher: ^6.3.2
-  video_player: ^2.10.1
-  geolocator: ^14.0.2
+  video_player: 2.9.2    # <--- แก้บรรทัดนี้
+  geolocator: ^12.0.0    # <--- แก้บรรทัดนี้ด้วย
 
 dev_dependencies:
   flutter_test:
@@ -46,5 +46,6 @@ flutter:
     - assets/videos/cook5.mp4
     - assets/videos/cook6.mp4
     - assets/videos/cook7.mp4
+
 
   uses-material-design: true
