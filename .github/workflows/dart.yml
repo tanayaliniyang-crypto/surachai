@@ -20,9 +20,10 @@ jobs:
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
-          # แก้จาก 3.19.0 เป็น 3.22.2 หรือสูงกว่า
-          flutter-version: '3.22.2' 
           channel: 'stable'
+          # ปล่อยว่างไว้ หรือระบุเป็นเวอร์ชันล่าสุด 
+          # หรือลอง 3.24.0 เพื่อความชัวร์
+          flutter-version: '3.24.0'
 
       - name: Build APK
         run: |
